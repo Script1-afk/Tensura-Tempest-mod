@@ -2,91 +2,100 @@
   {
     "name": "Tempest",
     "leaderName": "Rimuru",
-    "style": "Tempest",
     "primaryColor": "#1a1a2e",
     "secondaryColor": "#00d4ff",
+    "outerColor": "#ffffff",
     "cities": [
-      "Rimururu City",
-      "Goblin Village",
-      "Dwargon",
-      "Eurazania",
-      "Farminus",
-      "Blumund",
-      "Ingrassia",
-      "Thalion"
+      "Rimuru City", "Goblin Village", "Dwargon",
+      "Eurazania", "Farminus", "Blumund",
+      "Thalion", "Ingrassia", "Scarlet Keep", "Veldora Shrine"
     ],
     "introduction": "Je suis Rimuru Tempest. Mon peuple cherche la paix... mais ne sous-estimez pas ma puissance.",
-    "declaringWar": "Tu viens de signer ta propre mort. Rapael, analyse et élimine.",
-    "attacked": "Vraiment ? Tu oses attaquer Tempest ? Je vais te laisser une chance de te rendre.",
-    "defeated": "...Je me suis laissé aller. Mais Tempest survivra.",
-    "neutralHello": "Alors, qu'est-ce qui t'amène dans mes terres ?",
+    "declaringWar": "Raphael, analyse et élimine. Tous.",
+    "attacked": "Tu viens de commettre l'erreur de ta vie.",
+    "defeated": "Tempest survivra. Toujours.",
+    "neutralHello": "Qu'est-ce qui t'amène dans mes terres ?",
     "hateHello": "Tu testes vraiment ma patience.",
     "tradeRequest": "Un accord ? Voyons ce que tu proposes.",
-    "outerColor": "#ffffff",
     "uniqueName": "Nation des Monstres Libres",
     "uniques": [
       "+15% Production when constructing buildings",
       "+10% Growth in all cities",
       "15% Food is carried over after a new Population is born",
+      "Unhappiness from number of cities halved",
       "+2 Happiness from each Natural Wonder",
+      "Double Gold from Natural Wonders"
+    ]
+  },
+  {
+    "name": "Demon Lords",
+    "leaderName": "Milim Nava",
+    "primaryColor": "#6a0dad",
+    "secondaryColor": "#ff0055",
+    "outerColor": "#ffffff",
+    "cities": [
+      "Walpurgis", "Clayman Keep", "Frey Citadel",
+      "Charybdis Lair", "Ramiris Labyrinth",
+      "Guy Crimson Domain", "Leon Citadel", "Dino Lair"
+    ],
+    "introduction": "BOUH ! Je suis Milim Nava, Roi Démon le plus ancien ! T'as du miel ?",
+    "declaringWar": "Enfin une vraie bagarre ! Ne meurs pas trop vite !",
+    "attacked": "Tu m'as frappée ?! TU M'AS FRAPPÉE ?!",
+    "defeated": "C'est pas possible... Je me suis vraiment amusée pourtant...",
+    "neutralHello": "T'as du miel ?",
+    "hateHello": "Tu m'ennuies. Disparais.",
+    "uniqueName": "Colere du Dragon Primordial",
+    "uniques": [
+      "+25% Production when constructing units",
+      "+15% Production when constructing buildings",
       "Unhappiness from number of cities halved"
     ]
   },
   {
-    "name": "Demon Lords Alliance",
-    "leaderName": "Milim",
-    "style": "DemonLords",
-    "primaryColor": "#6a0dad",
-    "secondaryColor": "#ff0055",
+    "name": "Holy Church",
+    "leaderName": "Hinata Sakaguchi",
+    "primaryColor": "#b8860b",
+    "secondaryColor": "#f5f5dc",
+    "outerColor": "#1a1a2e",
     "cities": [
-      "Walpurgis",
-      "Clayman Keep",
-      "Frey Citadel",
-      "Charybdis Lair",
-      "Veldora Shrine"
+      "Ingrassia Holy City", "Falmuth Capital",
+      "Guardian Post", "Paladin Citadel",
+      "East Saint City", "West Church Outpost"
     ],
-    "introduction": "BOUH ! Je suis Milim Nava, Roi Démon ! On est amis maintenant, t'as compris ?",
-    "declaringWar": "Hahaha ! Enfin une vraie bagarre ! Ne meurs pas trop vite !",
-    "attacked": "Oh tu m'as frappée ? TU M'AS FRAPPÉE ?!",
-    "defeated": "C'est pas possible... Je me suis vraiment amusée pourtant...",
-    "neutralHello": "T'as du miel ?",
-    "hateHello": "Tu m'ennuies. Disparais.",
-    "outerColor": "#ffffff",
-    "uniqueName": "Colère du Dragon Primordial",
+    "introduction": "Au nom de la Sainte Eglise, je surveille chaque menace, monstre.",
+    "declaringWar": "L'Eglise a ordonné votre élimination. Que les Paladins avancent !",
+    "attacked": "Tu oses frapper un représentant de Dieu ? Tu périras.",
+    "defeated": "Peut-être que j'avais tort sur les monstres...",
+    "neutralHello": "Restons prudents dans nos relations.",
+    "hateHello": "Ne me force pas à utiliser mes vrais pouvoirs.",
+    "uniqueName": "Lumiere Anti-Magie",
     "uniques": [
-      "+25% Strength for all units",
-      "All melee units gain the Shock I promotion for free",
-      "+2 Culture from Barracks",
-      "+1 Production from every Mine improvement",
-      "Melee units may capture defeated units"
+      "+20% Production when constructing buildings",
+      "+10% Growth in all cities",
+      "Unhappiness from number of cities halved"
     ]
   },
   {
-    "name": "Falmuth Kingdom",
-    "leaderName": "Hinata",
-    "style": "Falmuth",
-    "primaryColor": "#b8860b",
-    "secondaryColor": "#f5f5dc",
+    "name": "True Dragons",
+    "leaderName": "Veldora",
+    "primaryColor": "#001f3f",
+    "secondaryColor": "#7fdbff",
+    "outerColor": "#ffffff",
     "cities": [
-      "Ingrassia",
-      "Falmuth Capital",
-      "Holy Church",
-      "Guardian Post",
-      "Paladin Citadel"
+      "Veldora Cave", "Velzard Domain", "Veldanava Throne",
+      "Milim Origin", "Dragon Shrine", "Ancient Ruins"
     ],
-    "introduction": "Au nom de la Sainte Eglise et de la Justice, je te surveille, monstre.",
-    "declaringWar": "L'Eglise a ordonné l'élimination de la menace. Que les Paladins avancent !",
-    "attacked": "Tu oses frapper un représentant de Dieu ? Tu périras.",
-    "defeated": "...Peut-être que j'avais tort sur les monstres.",
-    "neutralHello": "Restons-en à une paix prudente.",
-    "hateHello": "Ne me force pas à utiliser mes vrais pouvoirs.",
-    "outerColor": "#1a1a2e",
-    "uniqueName": "Lumière Anti-Magie",
+    "introduction": "Je suis Veldora Tempest ! Le Dragon Tempete ! Muahahaha !",
+    "declaringWar": "Ma flamme consumera tout sur son passage !",
+    "attacked": "Oses-tu vraiment affronter un True Dragon ?",
+    "defeated": "Impossible... Je suis un True Dragon...",
+    "neutralHello": "Parle, mortel.",
+    "hateHello": "Tu commences à m'irriter.",
+    "uniqueName": "Puissance du Dragon Primordial",
     "uniques": [
-      "+20% Strength for units fighting in friendly territory",
-      "+1 Science from every Temple",
-      "+10% Production when constructing wonders",
-      "Defensive buildings cost no maintenance"
+      "+20% Production when constructing units",
+      "+15% Production when constructing buildings",
+      "15% Food is carried over after a new Population is born"
     ]
   }
 ]
