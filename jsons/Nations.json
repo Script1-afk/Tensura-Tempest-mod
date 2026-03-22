@@ -1,38 +1,92 @@
 [
-	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
-
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
-
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+  {
+    "name": "Tempest",
+    "leaderName": "Rimuru",
+    "style": "Tempest",
+    "primaryColor": "#1a1a2e",
+    "secondaryColor": "#00d4ff",
+    "cities": [
+      "Rimururu City",
+      "Goblin Village",
+      "Dwargon",
+      "Eurazania",
+      "Farminus",
+      "Blumund",
+      "Ingrassia",
+      "Thalion"
+    ],
+    "introduction": "Je suis Rimuru Tempest. Mon peuple cherche la paix... mais ne sous-estimez pas ma puissance.",
+    "declaringWar": "Tu viens de signer ta propre mort. Rapael, analyse et élimine.",
+    "attacked": "Vraiment ? Tu oses attaquer Tempest ? Je vais te laisser une chance de te rendre.",
+    "defeated": "...Je me suis laissé aller. Mais Tempest survivra.",
+    "neutralHello": "Alors, qu'est-ce qui t'amène dans mes terres ?",
+    "hateHello": "Tu testes vraiment ma patience.",
+    "tradeRequest": "Un accord ? Voyons ce que tu proposes.",
+    "outerColor": "#ffffff",
+    "uniqueName": "Nation des Monstres Libres",
+    "uniques": [
+      "+15% Production when constructing buildings",
+      "+10% Growth in all cities",
+      "15% Food is carried over after a new Population is born",
+      "+2 Happiness from each Natural Wonder",
+      "Unhappiness from number of cities halved"
+    ]
+  },
+  {
+    "name": "Demon Lords Alliance",
+    "leaderName": "Milim",
+    "style": "DemonLords",
+    "primaryColor": "#6a0dad",
+    "secondaryColor": "#ff0055",
+    "cities": [
+      "Walpurgis",
+      "Clayman Keep",
+      "Frey Citadel",
+      "Charybdis Lair",
+      "Veldora Shrine"
+    ],
+    "introduction": "BOUH ! Je suis Milim Nava, Roi Démon ! On est amis maintenant, t'as compris ?",
+    "declaringWar": "Hahaha ! Enfin une vraie bagarre ! Ne meurs pas trop vite !",
+    "attacked": "Oh tu m'as frappée ? TU M'AS FRAPPÉE ?!",
+    "defeated": "C'est pas possible... Je me suis vraiment amusée pourtant...",
+    "neutralHello": "T'as du miel ?",
+    "hateHello": "Tu m'ennuies. Disparais.",
+    "outerColor": "#ffffff",
+    "uniqueName": "Colère du Dragon Primordial",
+    "uniques": [
+      "+25% Strength for all units",
+      "All melee units gain the Shock I promotion for free",
+      "+2 Culture from Barracks",
+      "+1 Production from every Mine improvement",
+      "Melee units may capture defeated units"
+    ]
+  },
+  {
+    "name": "Falmuth Kingdom",
+    "leaderName": "Hinata",
+    "style": "Falmuth",
+    "primaryColor": "#b8860b",
+    "secondaryColor": "#f5f5dc",
+    "cities": [
+      "Ingrassia",
+      "Falmuth Capital",
+      "Holy Church",
+      "Guardian Post",
+      "Paladin Citadel"
+    ],
+    "introduction": "Au nom de la Sainte Eglise et de la Justice, je te surveille, monstre.",
+    "declaringWar": "L'Eglise a ordonné l'élimination de la menace. Que les Paladins avancent !",
+    "attacked": "Tu oses frapper un représentant de Dieu ? Tu périras.",
+    "defeated": "...Peut-être que j'avais tort sur les monstres.",
+    "neutralHello": "Restons-en à une paix prudente.",
+    "hateHello": "Ne me force pas à utiliser mes vrais pouvoirs.",
+    "outerColor": "#1a1a2e",
+    "uniqueName": "Lumière Anti-Magie",
+    "uniques": [
+      "+20% Strength for units fighting in friendly territory",
+      "+1 Science from every Temple",
+      "+10% Production when constructing wonders",
+      "Defensive buildings cost no maintenance"
+    ]
+  }
 ]
