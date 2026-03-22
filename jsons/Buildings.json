@@ -1,25 +1,81 @@
 [
-	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+  {
+    "name": "Grande Salle de Tempest",
+    "cost": 100,
+    "maintenance": 1,
+    "uniqueTo": "Tempest",
+    "replaces": "Monument",
+    "culture": 3,
+    "happiness": 2,
+    "uniques": [
+      "+1 Great Person tile improvement",
+      "+10% Production when constructing buildings"
+    ]
+  },
+  {
+    "name": "Laboratoire Alchimique de Kurobe",
+    "cost": 180,
+    "maintenance": 2,
+    "uniqueTo": "Tempest",
+    "replaces": "Workshop",
+    "production": 3,
+    "science": 2,
+    "uniques": [
+      "+15% Production in this city",
+      "+1 Production from every Mine improvement in this city"
+    ]
+  },
+  {
+    "name": "Sanctuaire de Veldora",
+    "cost": 250,
+    "maintenance": 2,
+    "uniqueTo": "Tempest",
+    "replaces": "Temple",
+    "faith": 4,
+    "culture": 2,
+    "science": 1,
+    "uniques": [
+      "+10% Culture in this city",
+      "+5% Production when constructing wonders"
+    ]
+  },
+  {
+    "name": "Arene de Goberta",
+    "cost": 150,
+    "maintenance": 1,
+    "uniqueTo": "Tempest",
+    "replaces": "Colosseum",
+    "happiness": 5,
+    "culture": 2,
+    "uniques": [
+      "+2 Happiness",
+      "+10% Strength for units trained in this city"
+    ]
+  },
+  {
+    "name": "Tour de Commandement Oni",
+    "cost": 200,
+    "maintenance": 2,
+    "uniqueTo": "Demon Lords Alliance",
+    "replaces": "Barracks",
+    "production": 2,
+    "uniques": [
+      "+15% Strength for units trained in this city",
+      "+1 Experience per turn for every unit trained in this city",
+      "All newly-trained units in this city receive the Shock I promotion"
+    ]
+  },
+  {
+    "name": "Bibliotheque Sainte de Falmuth",
+    "cost": 160,
+    "maintenance": 1,
+    "uniqueTo": "Falmuth Kingdom",
+    "replaces": "Library",
+    "science": 5,
+    "faith": 2,
+    "uniques": [
+      "+10% Science in this city",
+      "+1 Great Scientist point per turn"
+    ]
+  }
 ]
