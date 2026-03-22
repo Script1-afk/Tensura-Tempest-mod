@@ -1,64 +1,52 @@
 [
   {
-    "name": "Rimuru Slime",
+    "name": "Rimuru Tempest",
     "unitType": "Melee",
-    "movement": 5,
-    "strength": 120,
-    "cost": 350,
+    "movement": 6,
+    "strength": 150,
+    "cost": 400,
+    "gold": 800,
     "uniqueTo": "Tempest",
     "replaces": "Giant Death Robot",
-    "promotions": [
-      "Shock I",
-      "Shock II",
-      "Shock III"
-    ],
     "uniques": [
       "May withdraw before melee",
       "+50% Strength when attacking",
       "+33% Strength vs City",
       "Can move after attacking",
-      "No defensive terrain bonus",
-      "Ignores zone of control"
+      "Ignores zone of control",
+      "Heals 50 damage if it kills a unit"
     ]
   },
   {
     "name": "Ranga Loup Noir",
     "unitType": "Mounted",
     "movement": 7,
-    "strength": 75,
-    "cost": 200,
+    "strength": 85,
+    "cost": 220,
+    "gold": 400,
     "uniqueTo": "Tempest",
     "replaces": "Cavalry",
-    "promotions": [
-      "Shock I",
-      "Shock II"
-    ],
     "uniques": [
       "+25% Strength when attacking",
       "May withdraw before melee",
       "Can move after attacking",
-      "Ignores zone of control",
-      "+1 Visibility Range"
+      "Ignores zone of control"
     ]
   },
   {
     "name": "Benimaru Oni",
-    "unitType": "Melee",
+    "unitType": "Ranged",
     "movement": 4,
-    "strength": 95,
-    "rangedStrength": 80,
+    "strength": 75,
+    "rangedStrength": 95,
     "range": 2,
     "cost": 280,
+    "gold": 550,
     "uniqueTo": "Tempest",
-    "replaces": "Musketman",
-    "promotions": [
-      "Accuracy I",
-      "Accuracy II",
-      "Shock I"
-    ],
+    "replaces": "Artillery",
     "uniques": [
-      "+25% Strength when fighting in open terrain",
-      "+15% Strength when defending",
+      "+25% Ranged Strength vs units",
+      "+20% Strength vs City",
       "Can move after attacking"
     ]
   },
@@ -66,99 +54,177 @@
     "name": "Shion Ogress",
     "unitType": "Melee",
     "movement": 3,
-    "strength": 110,
+    "strength": 120,
     "cost": 300,
+    "gold": 600,
     "uniqueTo": "Tempest",
     "replaces": "Infantry",
-    "promotions": [
-      "Shock I",
-      "Shock II",
-      "Shock III"
-    ],
     "uniques": [
       "+40% Strength when attacking",
-      "Heals 25 damage if it kills a unit",
-      "+1 Movement",
-      "Can move after attacking"
+      "Heals 30 damage if it kills a unit",
+      "Can move after attacking",
+      "+20% Strength when defending"
     ]
   },
   {
-    "name": "Milim Nava",
+    "name": "Hakurou Maitre Epee",
     "unitType": "Melee",
-    "movement": 6,
-    "strength": 200,
+    "movement": 4,
+    "strength": 90,
+    "cost": 240,
+    "gold": 480,
+    "uniqueTo": "Tempest",
+    "replaces": "Longswordsman",
+    "uniques": [
+      "+30% Strength when attacking",
+      "May withdraw before melee",
+      "+15% Strength in friendly territory"
+    ]
+  },
+  {
+    "name": "Gobta Cavalier",
+    "unitType": "Mounted",
+    "movement": 5,
+    "strength": 45,
+    "cost": 100,
+    "gold": 200,
+    "uniqueTo": "Tempest",
+    "replaces": "Knight",
+    "uniques": [
+      "May withdraw before melee",
+      "+10% Strength when attacking"
+    ]
+  },
+  {
+    "name": "Legion Gobeline",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 25,
+    "cost": 40,
+    "gold": 80,
+    "uniqueTo": "Tempest",
+    "replaces": "Warrior",
+    "uniques": [
+      "+10% Strength in friendly territory"
+    ]
+  },
+  {
+    "name": "Milim Nava - Roi Demon",
+    "unitType": "Melee",
+    "movement": 7,
+    "strength": 250,
     "cost": 999,
-    "uniqueTo": "Demon Lords Alliance",
+    "gold": 2500,
+    "uniqueTo": "Demon Lords",
     "replaces": "Giant Death Robot",
-    "promotions": [
-      "Shock I",
-      "Shock II",
-      "Shock III",
-      "Accuracy I",
-      "Accuracy II",
-      "Accuracy III"
-    ],
     "uniques": [
       "+50% Strength when attacking",
       "+50% Strength vs City",
       "Can move after attacking",
       "May withdraw before melee",
       "Heals 50 damage if it kills a unit",
-      "Ignores zone of control",
-      "No defensive terrain bonus",
-      "+2 Visibility Range"
+      "Ignores zone of control"
     ]
   },
   {
-    "name": "Legionnaire Gobelin",
-    "unitType": "Melee",
-    "movement": 3,
-    "strength": 35,
-    "cost": 60,
-    "uniqueTo": "Tempest",
-    "replaces": "Warrior",
-    "uniques": [
-      "+10% Strength when fighting in friendly territory",
-      "+5% Strength when stacked with Great General"
-    ]
-  },
-  {
-    "name": "Ifrit Flamme",
+    "name": "Clayman Marionnettiste",
     "unitType": "Ranged",
     "movement": 3,
-    "strength": 55,
-    "rangedStrength": 90,
+    "strength": 60,
+    "rangedStrength": 85,
     "range": 3,
-    "cost": 250,
-    "uniqueTo": "Tempest",
-    "replaces": "Catapult",
-    "promotions": [
-      "Accuracy I",
-      "Barrage I"
-    ],
+    "cost": 260,
+    "gold": 520,
+    "uniqueTo": "Demon Lords",
+    "replaces": "Artillery",
     "uniques": [
-      "+25% Strength vs City",
-      "+15% Ranged Strength vs units",
-      "Unable to capture cities",
-      "Must set up to ranged attack"
+      "+30% Ranged Strength vs units",
+      "+15% Strength vs City"
     ]
   },
   {
-    "name": "Paladin de Falmuth",
+    "name": "Frey Roi Demon",
+    "unitType": "Ranged",
+    "movement": 5,
+    "strength": 80,
+    "rangedStrength": 110,
+    "range": 2,
+    "cost": 320,
+    "gold": 640,
+    "uniqueTo": "Demon Lords",
+    "replaces": "Fighter",
+    "uniques": [
+      "May withdraw before melee",
+      "+25% Ranged Strength vs units",
+      "Can move after attacking"
+    ]
+  },
+  {
+    "name": "Hinata Sakaguchi",
+    "unitType": "Melee",
+    "movement": 4,
+    "strength": 140,
+    "cost": 380,
+    "gold": 760,
+    "uniqueTo": "Holy Church",
+    "replaces": "Giant Death Robot",
+    "uniques": [
+      "+35% Strength when attacking",
+      "+40% Strength when defending",
+      "+25% Strength in friendly territory",
+      "Can move after attacking",
+      "Heals 25 damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Paladin de Lumiere",
     "unitType": "Melee",
     "movement": 3,
-    "strength": 70,
-    "cost": 175,
-    "uniqueTo": "Falmuth Kingdom",
-    "replaces": "Longswordsman",
-    "promotions": [
-      "Drill I",
-      "Shock I"
-    ],
+    "strength": 80,
+    "cost": 200,
+    "gold": 400,
+    "uniqueTo": "Holy Church",
+    "replaces": "Infantry",
     "uniques": [
-      "+20% Strength when defending",
-      "+15% Strength when fighting in friendly territory",
-      "+1 Movement when stacked with Great General"
+      "+30% Strength when defending",
+      "+20% Strength in friendly territory",
+      "+15% Strength when attacking"
+    ]
+  },
+  {
+    "name": "Veldora Dragon Tempete",
+    "unitType": "Melee",
+    "movement": 8,
+    "strength": 300,
+    "cost": 999,
+    "gold": 3000,
+    "uniqueTo": "True Dragons",
+    "replaces": "Giant Death Robot",
+    "uniques": [
+      "+60% Strength when attacking",
+      "+60% Strength vs City",
+      "Can move after attacking",
+      "May withdraw before melee",
+      "Heals 80 damage if it kills a unit",
+      "Ignores zone of control",
+      "+50% Strength when defending"
+    ]
+  },
+  {
+    "name": "Ifrit Esprit du Feu",
+    "unitType": "Ranged",
+    "movement": 4,
+    "strength": 70,
+    "rangedStrength": 100,
+    "range": 3,
+    "cost": 300,
+    "gold": 600,
+    "uniqueTo": "True Dragons",
+    "replaces": "Artillery",
+    "uniques": [
+      "+30% Ranged Strength vs units",
+      "+35% Strength vs City",
+      "Can move after attacking"
     ]
   }
 ]
