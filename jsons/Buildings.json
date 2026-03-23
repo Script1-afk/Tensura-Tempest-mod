@@ -1,81 +1,281 @@
 [
   {
+    "name": "Voix du Monde - Raphael",
+    "isNationalWonder": true,
+    "cost": 500,
+    "maintenance": 0,
+    "science": 8,
+    "gold": 10,
+    "culture": 5,
+    "production": 5,
+    "uniqueTo": "Tempest",
+    "uniques": [
+      "+15% Science in this city",
+      "+10% Gold in this city",
+      "+10% Production in this city"
+    ],
+    "quote": "Analyse en cours... Toutes les solutions optimales ont été calculees."
+  },
+  {
     "name": "Grande Salle de Tempest",
-    "cost": 100,
-    "maintenance": 1,
+    "cost": 80,
+    "maintenance": 0,
+    "culture": 4,
+    "gold": 3,
+    "happiness": 3,
     "uniqueTo": "Tempest",
     "replaces": "Monument",
-    "culture": 3,
-    "happiness": 2,
     "uniques": [
-      "+1 Great Person tile improvement",
       "+10% Production when constructing buildings"
     ]
   },
   {
-    "name": "Laboratoire Alchimique de Kurobe",
-    "cost": 180,
-    "maintenance": 2,
+    "name": "Marche de Rimuru",
+    "cost": 100,
+    "maintenance": 1,
+    "gold": 8,
+    "production": 2,
+    "uniqueTo": "Tempest",
+    "replaces": "Market",
+    "uniques": [
+      "+25% Gold in this city"
+    ]
+  },
+  {
+    "name": "Banque de Tempest",
+    "cost": 150,
+    "maintenance": 1,
+    "gold": 12,
+    "uniqueTo": "Tempest",
+    "replaces": "Bank",
+    "requiredBuilding": "Marche de Rimuru",
+    "uniques": [
+      "+25% Gold in this city",
+      "+10% Production when constructing buildings"
+    ]
+  },
+  {
+    "name": "Chambre de Commerce Inter-Races",
+    "cost": 200,
+    "maintenance": 1,
+    "gold": 18,
+    "happiness": 2,
+    "uniqueTo": "Tempest",
+    "replaces": "Stock Exchange",
+    "requiredBuilding": "Banque de Tempest",
+    "uniques": [
+      "+25% Gold in this city",
+      "+15% Production when constructing units"
+    ]
+  },
+  {
+    "name": "Laboratoire de Kurobe",
+    "cost": 120,
+    "maintenance": 1,
+    "production": 5,
+    "science": 3,
     "uniqueTo": "Tempest",
     "replaces": "Workshop",
-    "production": 3,
-    "science": 2,
     "uniques": [
-      "+15% Production in this city",
-      "+1 Production from every Mine improvement in this city"
+      "+15% Production in this city"
+    ]
+  },
+  {
+    "name": "Forge Naine de Gabil",
+    "cost": 180,
+    "maintenance": 2,
+    "production": 8,
+    "science": 2,
+    "gold": 4,
+    "uniqueTo": "Tempest",
+    "replaces": "Factory",
+    "requiredBuilding": "Laboratoire de Kurobe",
+    "uniques": [
+      "+20% Production in this city",
+      "+10% Production when constructing units"
     ]
   },
   {
     "name": "Sanctuaire de Veldora",
-    "cost": 250,
-    "maintenance": 2,
+    "cost": 150,
+    "maintenance": 1,
+    "faith": 6,
+    "culture": 4,
+    "science": 2,
+    "happiness": 3,
     "uniqueTo": "Tempest",
     "replaces": "Temple",
-    "faith": 4,
-    "culture": 2,
-    "science": 1,
     "uniques": [
-      "+10% Culture in this city",
-      "+5% Production when constructing wonders"
+      "+10% Culture in this city"
+    ]
+  },
+  {
+    "name": "Tour de Surveillance Soei",
+    "cost": 90,
+    "maintenance": 1,
+    "gold": 5,
+    "science": 2,
+    "uniqueTo": "Tempest",
+    "replaces": "Walls",
+    "uniques": [
+      "+33% Strength for cities",
+      "+15% Production when constructing buildings"
     ]
   },
   {
     "name": "Arene de Goberta",
-    "cost": 150,
+    "cost": 130,
     "maintenance": 1,
+    "happiness": 6,
+    "culture": 3,
+    "gold": 4,
     "uniqueTo": "Tempest",
-    "replaces": "Colosseum",
-    "happiness": 5,
-    "culture": 2,
-    "uniques": [
-      "+2 Happiness",
-      "+10% Strength for units trained in this city"
-    ]
+    "replaces": "Colosseum"
   },
   {
-    "name": "Tour de Commandement Oni",
-    "cost": 200,
-    "maintenance": 2,
-    "uniqueTo": "Demon Lords Alliance",
-    "replaces": "Barracks",
-    "production": 2,
-    "uniques": [
-      "+15% Strength for units trained in this city",
-      "+1 Experience per turn for every unit trained in this city",
-      "All newly-trained units in this city receive the Shock I promotion"
-    ]
-  },
-  {
-    "name": "Bibliotheque Sainte de Falmuth",
+    "name": "Academie des Monstres",
     "cost": 160,
-    "maintenance": 1,
-    "uniqueTo": "Falmuth Kingdom",
-    "replaces": "Library",
-    "science": 5,
-    "faith": 2,
+    "maintenance": 2,
+    "science": 7,
+    "culture": 3,
+    "uniqueTo": "Tempest",
+    "replaces": "University",
     "uniques": [
-      "+10% Science in this city",
-      "+1 Great Scientist point per turn"
+      "+20% Science in this city"
     ]
+  },
+  {
+    "name": "Caserne des Oni",
+    "cost": 80,
+    "maintenance": 1,
+    "production": 2,
+    "uniqueTo": "Tempest",
+    "replaces": "Barracks",
+    "uniques": [
+      "+15% Production when constructing units",
+      "All newly-trained units in this city receive the Drill I promotion"
+    ]
+  },
+  {
+    "name": "Palais de Rimuru",
+    "isNationalWonder": true,
+    "cost": 350,
+    "maintenance": 0,
+    "gold": 15,
+    "culture": 8,
+    "happiness": 6,
+    "production": 4,
+    "science": 4,
+    "uniqueTo": "Tempest",
+    "uniques": [
+      "+10% Gold in this city",
+      "+10% Production when constructing buildings",
+      "+10% Production when constructing units"
+    ],
+    "quote": "Bienvenue dans la capitale de Tempest, la nation la plus libre du monde."
+  },
+  {
+    "name": "Temple du Labyrinthe",
+    "isNationalWonder": true,
+    "cost": 400,
+    "maintenance": 0,
+    "science": 10,
+    "culture": 8,
+    "gold": 12,
+    "uniqueTo": "Demon Lords",
+    "uniques": [
+      "+15% Science in this city",
+      "+15% Culture in this city"
+    ],
+    "quote": "Au fond du labyrinthe se cache la sagesse éternelle."
+  },
+  {
+    "name": "Chambre du Walpurgis",
+    "isNationalWonder": true,
+    "cost": 450,
+    "maintenance": 0,
+    "production": 8,
+    "gold": 15,
+    "happiness": 5,
+    "culture": 5,
+    "uniqueTo": "Demon Lords",
+    "uniques": [
+      "+20% Production when constructing units",
+      "+10% Gold in this city"
+    ],
+    "quote": "Le Conseil des Rois Demons decide du destin du monde."
+  },
+  {
+    "name": "Bibliotheque Sainte",
+    "cost": 140,
+    "maintenance": 1,
+    "science": 8,
+    "faith": 3,
+    "uniqueTo": "Holy Church",
+    "replaces": "Library",
+    "uniques": [
+      "+20% Science in this city"
+    ]
+  },
+  {
+    "name": "Forteresse Anti-Magie",
+    "cost": 180,
+    "maintenance": 2,
+    "production": 4,
+    "uniqueTo": "Holy Church",
+    "replaces": "Castle",
+    "uniques": [
+      "+50% Strength for cities",
+      "+25% Production when constructing units"
+    ]
+  },
+  {
+    "name": "Cathédrale de Luminaris",
+    "isNationalWonder": true,
+    "cost": 420,
+    "maintenance": 0,
+    "faith": 12,
+    "science": 6,
+    "happiness": 7,
+    "gold": 8,
+    "uniqueTo": "Holy Church",
+    "uniques": [
+      "+15% Faith in this city",
+      "+15% Science in this city"
+    ],
+    "quote": "La lumiere divine guide nos pas contre l'obscurite."
+  },
+  {
+    "name": "Caverne de Veldora",
+    "isNationalWonder": true,
+    "cost": 300,
+    "maintenance": 0,
+    "production": 10,
+    "science": 10,
+    "gold": 10,
+    "culture": 5,
+    "uniqueTo": "True Dragons",
+    "uniques": [
+      "+15% Production in this city",
+      "+20% Production when constructing units"
+    ],
+    "quote": "Le rugissement du Dragon Tempete resonne a travers les ages."
+  },
+  {
+    "name": "Flamme Eternelle du Dragon",
+    "isNationalWonder": true,
+    "cost": 500,
+    "maintenance": 0,
+    "production": 12,
+    "gold": 20,
+    "science": 8,
+    "happiness": 5,
+    "uniqueTo": "True Dragons",
+    "uniques": [
+      "+20% Production when constructing units",
+      "+15% Gold in this city",
+      "+15% Production in this city"
+    ],
+    "quote": "La flamme primordiale ne s'eteint jamais."
   }
 ]
