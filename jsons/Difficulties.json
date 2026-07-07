@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Apprenti de Tempest",
+        "baseHappiness": 15,
+        "playerResearchCostModifier": 0.8
+    },
+    {
+        "name": "Garde de Tempest",
+        "baseHappiness": 10,
+        "playerResearchCostModifier": 1.0
+    },
+    {
+        "name": "Seigneur Démon",
+        "baseHappiness": 5,
+        "playerResearchCostModifier": 1.2
+    }
+]

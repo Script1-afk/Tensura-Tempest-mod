@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Tempest Assault I",
+        "uniques": [
+            "[+10]% Force"
+        ],
+        "column": 1
+    },
+    {
+        "name": "Tempest Assault II",
+        "uniques": [
+            "[+20]% Force"
+        ],
+        "prerequisites": [
+            "Tempest Assault I"
+        ],
+        "column": 1
+    },
+    {
+        "name": "Tempest Assault III",
+        "uniques": [
+            "[+30]% Force",
+            "Peut attaquer deux fois"
+        ],
+        "prerequisites": [
+            "Tempest Assault II"
+        ],
+        "column": 1
+    },
+    {
+        "name": "Oni Fury I",
+        "uniques": [
+            "[+15]% Force lors de l'attaque"
+        ],
+        "column": 2
+    },
+    {
+        "name": "Oni Fury II",
+        "uniques": [
+            "[+25]% Force lors de l'attaque"
+        ],
+        "prerequisites": [
+            "Oni Fury I"
+        ],
+        "column": 2
+    },
+    {
+        "name": "Oni Fury III",
+        "uniques": [
+            "[+40]% Force lors de l'attaque",
+            "[+1] Mouvement"
+        ],
+        "prerequisites": [
+            "Oni Fury II"
+        ],
+        "column": 2
+    },
+    {
+        "name": "Shadow Hunt I",
+        "uniques": [
+            "Invisible pour les unités ennemies"
+        ],
+        "column": 12
+    },
+    {
+        "name": "Ramiris Labyrinth Protection",
+        "uniques": [
+            "[+50]% Force lors de la défense dans vos propres frontières"
+        ],
+        "column": 14
+    }
+]

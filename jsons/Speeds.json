@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Évolution Rapide",
+        "modifier": 0.5
+    },
+    {
+        "name": "Évolution Standard",
+        "modifier": 1.0
+    },
+    {
+        "name": "Évolution Éternelle",
+        "modifier": 3.0
+    }
+]

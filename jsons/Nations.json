@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Tempest",
+        "leaderName": "Rimuru Tempest",
+        "adjective": [
+            "de Tempest"
+        ],
+        "startBias": [
+            "Forest",
+            "Jungle"
+        ],
+        "favoredReligion": "Culte de Rimuru",
+        "color": [
+            0,
+            191,
+            255
+        ],
+        "innerColor": [
+            255,
+            255,
+            255
+        ],
+        "uniqueText": "Fédération de Jura Tempest : Puissance militaire exceptionnelle.",
+        "uniques": [
+            "[+50]% Production lors de la construction de [Merveille]",
+            "Toutes les unités terrestres reçoivent la promotion [Tempest Assault I] gratuitement"
+        ],
+        "cities": [
+            "Rimuru City",
+            "Jura",
+            "Tempest Capital",
+            "Kaijin's Forge",
+            "Benimaru's Bastion"
+        ],
+        "spyNames": [
+            "Souei",
+            "Soka"
+        ]
+    }
+]

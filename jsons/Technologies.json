@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Magie de Base",
+        "cost": 20,
+        "era": "Ère des Humains"
+    },
+    {
+        "name": "Évolution des Monstres",
+        "cost": 50,
+        "era": "Ère des Monstres",
+        "prerequisites": [
+            "Magie de Base"
+        ]
+    }
+]

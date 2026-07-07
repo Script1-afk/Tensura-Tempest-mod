@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Palais de Tempest",
+        "uniqueTo": "Tempest",
+        "replaces": "Palace",
+        "cost": 0,
+        "uniques": [
+            "[+5] Science",
+            "[+5] Culture",
+            "Indique que la ville est la capitale"
+        ]
+    },
+    {
+        "name": "Forge Absolue de Kaijin",
+        "uniqueTo": "Tempest",
+        "replaces": "Forge",
+        "cost": 50,
+        "uniques": [
+            "[+25]% Production lors de la construction de [Unités terrestres]",
+            "[+5] Production"
+        ]
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Rimuru Tempest",
+        "unitType": "Sword",
+        "uniqueTo": "Tempest",
+        "movement": 4,
+        "strength": 100,
+        "cost": 1,
+        "promotions": [
+            "Tempest Assault III"
+        ],
+        "uniques": [
+            "Peut fonder des villes",
+            "Unité unique"
+        ]
+    },
+    {
+        "name": "Benimaru",
+        "unitType": "Sword",
+        "uniqueTo": "Tempest",
+        "movement": 3,
+        "strength": 80,
+        "cost": 1,
+        "promotions": [
+            "Oni Fury III"
+        ],
+        "uniques": [
+            "Unité unique"
+        ]
+    },
+    {
+        "name": "Garde Oni de Tempest",
+        "unitType": "Sword",
+        "uniqueTo": "Tempest",
+        "movement": 3,
+        "strength": 60,
+        "cost": 50,
+        "replaces": "Longswordsman"
+    }
+]

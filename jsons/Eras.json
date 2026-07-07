@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Ère des Humains",
+        "researchCostModifier": 1.0,
+        "startingSettlers": 1,
+        "startingMilitaryUnits": [
+            "Warrior"
+        ]
+    },
+    {
+        "name": "Ère des Monstres",
+        "researchCostModifier": 1.2,
+        "startingSettlers": 1,
+        "startingWorkers": 1,
+        "startingMilitaryUnits": [
+            "Warrior",
+            "Warrior"
+        ]
+    },
+    {
+        "name": "Ère des Demon Lords",
+        "researchCostModifier": 1.5,
+        "startingSettlers": 2,
+        "startingWorkers": 2,
+        "startingMilitaryUnits": [
+            "Warrior",
+            "Spearman"
+        ]
+    },
+    {
+        "name": "Ère des True Demons",
+        "researchCostModifier": 2.0,
+        "startingSettlers": 2,
+        "startingWorkers": 3,
+        "startingMilitaryUnits": [
+            "Swordsman",
+            "Archer"
+        ]
+    },
+    {
+        "name": "Ère des Divinités",
+        "researchCostModifier": 3.0,
+        "startingSettlers": 3,
+        "startingWorkers": 4,
+        "startingMilitaryUnits": [
+            "Longswordsman",
+            "Crossbowman"
+        ]
+    }
+]
